@@ -13,8 +13,13 @@
 Например:
 > [delaults]
 >
+> 
 > host_key_checking = false
+> 
 > inventory = ./hosts
+> 
 > roles_path = ./roles
+> 
 > remote_user = user
+> 
 > private_key_file = id_rsa
