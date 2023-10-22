@@ -9,7 +9,8 @@
     - **roles_path** - местоположение ролей;
     - **remote_user** - пользователь из-под которого будет работать ansible;
     - **private_key_file** - файл ssh-ключа.
-Пример:
+
+Например:
 > [delaults]
 >
 > host_key_checking = false
