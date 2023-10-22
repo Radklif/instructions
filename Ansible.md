@@ -8,4 +8,12 @@
     - **inventory** - местоположение hosts;
     - **roles_path** - местоположение ролей;
     - **remote_user** - пользователь из-под которого будет работать ansible;
-    - **private_key_file** - файл ssh-ключа. 
+    - **private_key_file** - файл ssh-ключа.
+Пример:
+> [delaults]
+>
+> host_key_checking = false
+> inventory = ./hosts
+> roles_path = ./roles
+> remote_user = user
+> private_key_file = id_rsa
