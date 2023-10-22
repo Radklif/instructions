@@ -14,6 +14,7 @@
 > [delaults]
 >
 > 
+> 
 > host_key_checking = false
 > 
 > inventory = ./hosts
