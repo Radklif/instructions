@@ -35,7 +35,7 @@
 >
 > HOST1  ansible_host=10.10.10.1  ansible_ssh_pass=123  new_password=1234  ansible_port=2222
 >
-> HOST1  ansible_host=10.10.10.2  ansible_ssh_pass=123  new_password=1234  ansible_port=2222
+> HOST2  ansible_host=10.10.10.2  ansible_ssh_pass=123  new_password=1234  ansible_port=2222
    
 - **host_vars** - метсоположение переменных хостов inventory.
 - **group_vars** - местоположение переменных групп inventory.
