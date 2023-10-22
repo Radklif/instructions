@@ -11,6 +11,7 @@
     - **private_key_file** - файл ssh-ключа.
 
 > :memo: **Пример:**
+> 
 > [delaults]
 >
 > host_key_checking = false
