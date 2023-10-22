@@ -34,6 +34,7 @@
   - **postgres_pass** - пароль СУБД PostgreSQL.
  
 > :memo: **Пример:**
+> 
 > [GROUP]
 >
 > HOST1  ansible_host=10.10.10.1  ansible_ssh_pass=123  new_password=1234  ansible_port=2222
@@ -44,6 +45,7 @@
 - **group_vars** - местоположение переменных групп inventory.
 
 > :memo: **Пример:**
+> 
 > ansible_ssh_pass    : test
 > 
 > ansible_become_pass : '{{ ansible_ssh_pass }}'
