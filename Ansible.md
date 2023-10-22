@@ -25,6 +25,7 @@
 
 - **host_vars** - метсоположение переменных хостов inventory.
 - **group_vars** - местоположение переменных групп inventory.
+
 Например:
 > ansible_ssh_pass    : test\%
 > ansible_become_pass : '{{ ansible_ssh_pass }}'
