@@ -28,5 +28,6 @@
 
 Например:
 > ansible_ssh_pass    : test\%
+> 
 > ansible_become_pass : '{{ ansible_ssh_pass }}'
 
